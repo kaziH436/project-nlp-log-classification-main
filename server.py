@@ -4,6 +4,7 @@ from fastapi.responses import FileResponse
 
 from classify import classify
 
+# Microservice backend for returning the csv file
 app = FastAPI()
 
 @app.post("/classify/")
